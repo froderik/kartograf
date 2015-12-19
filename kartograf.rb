@@ -4,7 +4,7 @@ require 'haml'
 class Kartograf < Sinatra::Base
 
   get '/' do
-    'Hello world!'
+    haml :index, :layout => :'layouts/maps'
   end
   
 end
