@@ -24,6 +24,18 @@
       L.tileLayer( osmLayerUrl, options ).addTo( map );
 
       $.get('/newyork.json', function(data) {
-        L.geoJson(data).addTo(map);
+        L.geoJson(data, {
+          onEachFeature: onEachFeature
+        }).addTo(map);
       });
+
+      function onEachFeature(feature, layer) {
+        var popupContent = "";
+
+        if (feature.properties && feature.properties.name) {
+          popupContent += feature.properties.name;
+        }
+
+        layer.bindPopup(popupContent);
+      }
 
