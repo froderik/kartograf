@@ -1,0 +1,791 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.02826809999999,
+                    40.7754096,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "526 37th St - airbnb apartment\n",
+                "styleUrl": "#icon-503-000000-nodesc",
+                "styleHash": "55ee03a9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.02553999999998,
+                    40.777095000000024,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "El Artesano Restaurant - Dinner 13/4\n",
+                "styleUrl": "#icon-503-F9F7A6-nodesc",
+                "styleHash": "218735de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.027019,
+                    40.774809,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "La Guardia Bakery - morning bread\n",
+                "styleUrl": "#icon-503-000000-nodesc",
+                "styleHash": "55ee03a9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98559599999999,
+                    40.748496,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Empire State Building - 14/4\n",
+                "styleUrl": "#icon-503-E6EEA3-nodesc",
+                "styleHash": "-5ffe4d80"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.95628399999998,
+                    40.784642,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Yura On Madison - Lunch 14/4\n",
+                "styleUrl": "#icon-503-E6EEA3-nodesc",
+                "styleHash": "-5ffe4d80"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.96535499999999,
+                    40.782865,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Central Park - Lunch 14/4\n",
+                "styleUrl": "#icon-503-E6EEA3-nodesc",
+                "styleHash": "-5ffe4d80"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98422800000003,
+                    40.753995,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bryant Park - 14/4 och 19/4",
+                "styleUrl": "#icon-503-E6EEA3-nodesc",
+                "styleHash": "-5ffe4d80"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.977056,
+                    40.752998,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Grand Central - 14/4\n",
+                "styleUrl": "#icon-503-E6EEA3-nodesc",
+                "styleHash": "-5ffe4d80"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98615899999999,
+                    40.747601,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kunjip - korean dinner 14/4\n",
+                "styleUrl": "#icon-503-E6EEA3-nodesc",
+                "styleHash": "-5ffe4d80"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.97774300000003,
+                    40.761456,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "The Museum of Modern Art - 15/4\n",
+                "styleUrl": "#icon-503-B7DBAB-nodesc",
+                "styleHash": "5e2394ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98874,
+                    40.750576,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Macy's - 15/4\n",
+                "styleUrl": "#icon-503-B7DBAB-nodesc",
+                "styleHash": "5e2394ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98415,
+                    40.747594,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "The Compleat Strategist - 15&21/4",
+                "styleUrl": "#icon-503-B7DBAB",
+                "styleHash": "5760d1be",
+                "description": "illuminati"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98932000000002,
+                    40.743278,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hill Country Chicken - dinner 15/4",
+                "styleUrl": "#icon-503-B7DBAB-nodesc",
+                "styleHash": "5e2394ad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.00052499999998,
+                    40.721514,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pearl River Mart - kinashop 16/4\n",
+                "styleUrl": "#icon-503-7CCFA9-nodesc",
+                "styleHash": "41bea454"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.99990200000002,
+                    40.721378,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Topshop - 16/4\n",
+                "styleUrl": "#icon-503-7CCFA9-nodesc",
+                "styleHash": "41bea454"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.00488100000001,
+                    40.7288,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "La Camelia - mexican lunch 16/4\n",
+                "styleUrl": "#icon-503-7CCFA9-nodesc",
+                "styleHash": "41bea454"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.99733200000003,
+                    40.730823,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Washington Square Park - sol 16/4\n",
+                "styleUrl": "#icon-503-7CCFA9-nodesc",
+                "styleHash": "41bea454"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.00044300000002,
+                    40.730242,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Caffe Reggio - 16/4\n",
+                "styleUrl": "#icon-503-7CCFA9-nodesc",
+                "styleHash": "41bea454"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.005536,
+                    40.741288,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Apple Store, West 14th Street - 16/4\n",
+                "styleUrl": "#icon-503-7CCFA9-nodesc",
+                "styleHash": "41bea454"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.00471779999998,
+                    40.74791760000001,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "High Line - 16/4\n",
+                "styleUrl": "#icon-503-7CCFA9-nodesc",
+                "styleHash": "41bea454"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.99401499999999,
+                    40.751961,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Stage Door - pre basket 16/4\n",
+                "styleUrl": "#icon-503-7CCFA9-nodesc",
+                "styleHash": "41bea454"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.99343899999997,
+                    40.750504,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Madison Square Garden - knicks vs raptors 16/4\n",
+                "styleUrl": "#icon-503-7CCFA9-nodesc",
+                "styleHash": "41bea454"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.963346,
+                    40.779532,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "The Metropolitan Museum of Art - 17/4\n",
+                "styleUrl": "#icon-503-93D7E8-nodesc",
+                "styleHash": "-2fbfe177"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.9910835,
+                    40.7358633,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Union Square - 17&22/4",
+                "styleUrl": "#icon-503-93D7E8",
+                "styleHash": "-2b070936",
+                "description": "inkl barnes & nobles"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.00516766137696,
+                    40.742139666015596,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chelsea Market - 17/4\n",
+                "styleUrl": "#icon-503-93D7E8-nodesc",
+                "styleHash": "-2fbfe177"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.02262200000001,
+                    40.752725,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hoboken 14th St Pier - 18/4\n",
+                "styleUrl": "#icon-503-9FC3FF-nodesc",
+                "styleHash": "605ebd52"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.97398800000002,
+                    40.781324,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "American Museum of Natural History - 18/4\n",
+                "styleUrl": "#icon-503-9FC3FF-nodesc",
+                "styleHash": "605ebd52"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.981811,
+                    40.763422,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Stage Deli - 18/4\n",
+                "styleUrl": "#icon-503-9FC3FF-nodesc",
+                "styleHash": "605ebd52"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98447220000003,
+                    40.759011,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Times Square - 18/4\n",
+                "styleUrl": "#icon-503-9FC3FF-nodesc",
+                "styleHash": "605ebd52"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.01116100000002,
+                    40.776837,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Port Imperial Ferry Terminal - 18/4\n",
+                "styleUrl": "#icon-503-9FC3FF-nodesc",
+                "styleHash": "605ebd52"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.00008200000002,
+                    40.715052,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Columbus Park - 19/4\n",
+                "styleUrl": "#icon-503-C6A4CF-nodesc",
+                "styleHash": "3333076e"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.998359,
+                    40.714807,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Joe's Ginger - lunch 19/4\n",
+                "styleUrl": "#icon-503-C6A4CF-nodesc",
+                "styleHash": "3333076e"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98860100000002,
+                    40.716252,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Doughnut Plant - 19/4\n",
+                "styleUrl": "#icon-503-C6A4CF-nodesc",
+                "styleHash": "3333076e"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98719100000001,
+                    40.722,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Il Laboratorio del Gelato - 19/4\n",
+                "styleUrl": "#icon-503-C6A4CF-nodesc",
+                "styleHash": "3333076e"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98604,
+                    40.759285,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lunt-Fontanne Theatre - 19/4\n",
+                "styleUrl": "#icon-503-C6A4CF-nodesc",
+                "styleHash": "3333076e"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.006059,
+                    40.712774,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "New York City Hall - 20/4\n",
+                "styleUrl": "#icon-503-D698AD-nodesc",
+                "styleHash": "-754f7bb3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.99917319999997,
+                    40.7079999,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brooklyn Bridge - 20/4\n",
+                "styleUrl": "#icon-503-D698AD-nodesc",
+                "styleHash": "-754f7bb3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.99701800000003,
+                    40.701708,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brooklyn Bridge Park - 20/4\n",
+                "styleUrl": "#icon-503-D698AD-nodesc",
+                "styleHash": "-754f7bb3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.001551,
+                    40.694864,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Smorgasburg - 20/4\n",
+                "styleUrl": "#icon-503-D698AD-nodesc",
+                "styleHash": "-754f7bb3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.97792449999997,
+                    40.6713197,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brooklyn Flea Market - 20/4\n",
+                "styleUrl": "#icon-503-D698AD-nodesc",
+                "styleHash": "-754f7bb3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.01361099999997,
+                    40.711667,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "9/11 Memorial - 20/4\n",
+                "styleUrl": "#icon-503-D698AD-nodesc",
+                "styleHash": "-754f7bb3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.012066,
+                    40.707985,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Trinity Church - 20/4\n",
+                "styleUrl": "#icon-503-D698AD-nodesc",
+                "styleHash": "-754f7bb3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.01699000000002,
+                    40.703165000000006,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Battery Park - 20/4\n",
+                "styleUrl": "#icon-503-D698AD-nodesc",
+                "styleHash": "-754f7bb3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.02822800000001,
+                    40.771235,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Maria Mentiras Bar & Grill - 20/4\n",
+                "styleUrl": "#icon-503-D698AD-nodesc",
+                "styleHash": "-754f7bb3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.04250200000003,
+                    40.706799,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Liberty State Park - 21/4\n",
+                "styleUrl": "#icon-503-FAD199-nodesc",
+                "styleHash": "3763ea11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.03955959999996,
+                    40.6994721,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Ellis Island - 21/4\n",
+                "styleUrl": "#icon-503-FAD199-nodesc",
+                "styleHash": "3763ea11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.04506750000002,
+                    40.6900495,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Liberty Island - 21/4",
+                "styleUrl": "#icon-503-FAD199-nodesc",
+                "styleHash": "3763ea11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.988205,
+                    40.741449,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Shake Shack - best burger? - 22/4",
+                "styleUrl": "#icon-503-B29189-nodesc",
+                "styleHash": "-6ce1dd2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.99226899999996,
+                    40.753285,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Short-Term Stow - 22/4\n",
+                "styleUrl": "#icon-503-B29189-nodesc",
+                "styleHash": "-6ce1dd2"
+            }
+        }
+    ]
+}
