@@ -34,7 +34,8 @@ $(document).ready(
 	var osmLayerUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
 	L.tileLayer( osmLayerUrl, mapOptions() ).addTo( map );
 
-	$.get('/newyork.json', function(data) {
+	var dataSource = $('#map').data( 'source' );
+	$.get(dataSource, function(data) {
 	    for( var i = 0; i < data.features.length; i++ ) {
 		addOneMarker(data.features[i], map);
 	    }
