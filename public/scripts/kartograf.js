@@ -1,13 +1,3 @@
-function onEachFeature(feature, layer) {
-    var popupContent = "";
-
-    if (feature.properties && feature.properties.name) {
-        popupContent += feature.properties.name;
-    }
-
-    layer.bindPopup(popupContent);
-};
-
 
 $(document).ready(
     function() {
@@ -18,7 +8,15 @@ $(document).ready(
 	L.tileLayer( osmLayerUrl, options ).addTo( map );
 
 	$.get('/newyork.json', function(data) {
-            L.geoJson(data, { onEachFeature: onEachFeature }).addTo(map);
+	    for( var i = 0; i < data.features.length; i++ ) {
+		var feature = data.features[i];
+		var icon = L.MakiMarkers.icon({icon: "restaurant", color: "#000", size: "m"});
+		var x = feature.geometry.coordinates[0];
+		var y = feature.geometry.coordinates[1];
+		var hasAName = feature.properties && feature.properties.name
+		var popupContent = hasAName ? feature.properties.name : "";
+		L.marker([y, x], {icon: icon}).bindPopup(popupContent).addTo(map);
+	    }
 	});
     }
 );
