@@ -1,4 +1,22 @@
 
+var nameOfFeature = function(feature) {
+    var hasAName = feature.properties && feature.properties.name
+    return hasAName ? feature.properties.name : "";
+};
+
+var coordsOfFeature = function(feature) {
+    var lon = feature.geometry.coordinates[0];
+    var lat = feature.geometry.coordinates[1];
+
+    return [lat, lon];
+};
+
+var addOneMarker = function(feature, map) {
+    console.log("yolo");
+    var icon = L.MakiMarkers.icon({icon: "restaurant", color: "#000", size: "m"});		
+    L.marker(coordsOfFeature(feature), {icon: icon}).bindPopup(nameOfFeature(feature)).addTo(map);    
+};
+
 $(document).ready(
     function() {
 	var map = L.map( 'map' ).setView( [40.728, -74], 13 );
@@ -9,13 +27,7 @@ $(document).ready(
 
 	$.get('/newyork.json', function(data) {
 	    for( var i = 0; i < data.features.length; i++ ) {
-		var feature = data.features[i];
-		var icon = L.MakiMarkers.icon({icon: "restaurant", color: "#000", size: "m"});
-		var x = feature.geometry.coordinates[0];
-		var y = feature.geometry.coordinates[1];
-		var hasAName = feature.properties && feature.properties.name
-		var popupContent = hasAName ? feature.properties.name : "";
-		L.marker([y, x], {icon: icon}).bindPopup(popupContent).addTo(map);
+		addOneMarker(data.features[i], map);
 	    }
 	});
     }
