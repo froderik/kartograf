@@ -16,16 +16,23 @@ var addOneMarker = function(feature, map) {
     L.marker(coordsOfFeature(feature), {icon: icon}).bindPopup(nameOfFeature(feature)).addTo(map);    
 };
 
-$(document).ready(
-    function() {
-	var mapLat = $('#map').data( 'lat' );
+var createMap = function() {
+    	var mapLat = $('#map').data( 'lat' );
 	var mapLon = $('#map').data( 'lon' );
 	var mapZoom = $('#map').data( 'zoom' );
-	var map = L.map( 'map' ).setView( [mapLat, mapLon], mapZoom );
+	return L.map( 'map' ).setView( [mapLat, mapLon], mapZoom );
+};
+
+var mapOptions = function() {
+    var attribution = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>';
+    return { attribution: attribution, maxZoom: 18 };
+};
+
+$(document).ready(
+    function() {
+	var map = createMap();
 	var osmLayerUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
-	var attribution = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>';
-	var options = { attribution: attribution, maxZoom: 18 };
-	L.tileLayer( osmLayerUrl, options ).addTo( map );
+	L.tileLayer( osmLayerUrl, mapOptions() ).addTo( map );
 
 	$.get('/newyork.json', function(data) {
 	    for( var i = 0; i < data.features.length; i++ ) {
