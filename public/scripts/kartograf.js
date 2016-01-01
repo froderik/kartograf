@@ -12,7 +12,6 @@ var coordsOfFeature = function(feature) {
 };
 
 var addOneMarker = function(feature, map) {
-    console.log("yolo");
     var icon = L.MakiMarkers.icon({icon: "restaurant", color: "#000", size: "m"});		
     L.marker(coordsOfFeature(feature), {icon: icon}).bindPopup(nameOfFeature(feature)).addTo(map);    
 };
