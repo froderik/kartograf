@@ -12,7 +12,8 @@
                 ]
             },
             "properties": {
-                "name": "526 37th St - airbnb apartment\n"
+                "name": "526 37th St - airbnb apartment",
+		"category": "lodging"
             }
         },
         {
@@ -26,7 +27,8 @@
                 ]
             },
             "properties": {
-                "name": "El Artesano Restaurant - Dinner 13/4\n"
+                "name": "El Artesano Restaurant - Dinner 13/4",
+		"category": "restaurant"
             }
         },
         {
@@ -40,7 +42,8 @@
                 ]
             },
             "properties": {
-                "name": "La Guardia Bakery - morning bread\n"
+                "name": "La Guardia Bakery - morning bread",
+		"category": "cafe"
             }
         },
         {
@@ -54,7 +57,8 @@
                 ]
             },
             "properties": {
-                "name": "Empire State Building - 14/4\n"
+                "name": "Empire State Building - 14/4",
+		"category": "monument"
             }
         },
         {
@@ -68,7 +72,8 @@
                 ]
             },
             "properties": {
-                "name": "Yura On Madison - Lunch 14/4\n"
+                "name": "Yura On Madison - Lunch 14/4\n",
+		"category": "restaurant"
             }
         },
         {
@@ -82,7 +87,8 @@
                 ]
             },
             "properties": {
-                "name": "Central Park - Lunch 14/4\n"
+                "name": "Central Park - Lunch 14/4",
+		"category": "park"
             }
         },
         {
@@ -96,7 +102,8 @@
                 ]
             },
             "properties": {
-                "name": "Bryant Park - 14/4 och 19/4"
+                "name": "Bryant Park - 14/4 och 19/4",
+		"category": "park"
             }
         },
         {
@@ -110,7 +117,8 @@
                 ]
             },
             "properties": {
-                "name": "Grand Central - 14/4\n"
+                "name": "Grand Central - 14/4",
+		"category": "monument"
             }
         },
         {
@@ -124,7 +132,8 @@
                 ]
             },
             "properties": {
-                "name": "Kunjip - korean dinner 14/4\n"
+                "name": "Kunjip - korean dinner 14/4",
+		"category": "restaurant"
             }
         },
         {
@@ -138,7 +147,8 @@
                 ]
             },
             "properties": {
-                "name": "The Museum of Modern Art - 15/4\n"
+                "name": "The Museum of Modern Art - 15/4",
+		"category": "art-gallery"
             }
         },
         {
@@ -152,7 +162,8 @@
                 ]
             },
             "properties": {
-                "name": "Macy's - 15/4\n"
+                "name": "Macy's - 15/4",
+		"category": "shop"
             }
         },
         {
@@ -167,7 +178,8 @@
             },
             "properties": {
                 "name": "The Compleat Strategist - 15&21/4",
-                "description": "illuminati"
+                "description": "illuminati",
+		"category": "shop"
             }
         },
         {
@@ -181,7 +193,8 @@
                 ]
             },
             "properties": {
-                "name": "Hill Country Chicken - dinner 15/4"
+                "name": "Hill Country Chicken - dinner 15/4",
+		"category": "restaurant"
             }
         },
         {
@@ -195,7 +208,8 @@
                 ]
             },
             "properties": {
-                "name": "Pearl River Mart - kinashop 16/4\n"
+                "name": "Pearl River Mart - kinashop 16/4",
+		"category": "shop"
             }
         },
         {
@@ -209,7 +223,8 @@
                 ]
             },
             "properties": {
-                "name": "Topshop - 16/4\n"
+                "name": "Topshop - 16/4",
+		"category": "shop"
             }
         },
         {
@@ -223,7 +238,8 @@
                 ]
             },
             "properties": {
-                "name": "La Camelia - mexican lunch 16/4\n"
+                "name": "La Camelia - mexican lunch 16/4\n",
+		"category": "restaurant"
             }
         },
         {
@@ -237,7 +253,8 @@
                 ]
             },
             "properties": {
-                "name": "Washington Square Park - sol 16/4\n"
+                "name": "Washington Square Park - sol 16/4\n",
+		"category": "park"
             }
         },
         {
@@ -251,7 +268,8 @@
                 ]
             },
             "properties": {
-                "name": "Caffe Reggio - 16/4\n"
+                "name": "Caffe Reggio - 16/4",
+		"category": "cafe"
             }
         },
         {
@@ -265,7 +283,8 @@
                 ]
             },
             "properties": {
-                "name": "Apple Store, West 14th Street - 16/4\n"
+                "name": "Apple Store, West 14th Street - 16/4",
+		"category": "shop"
             }
         },
         {
@@ -279,7 +298,8 @@
                 ]
             },
             "properties": {
-                "name": "High Line - 16/4\n"
+                "name": "High Line - 16/4",
+		"category": "monument"
             }
         },
         {
@@ -293,7 +313,8 @@
                 ]
             },
             "properties": {
-                "name": "Stage Door - pre basket 16/4\n"
+                "name": "Stage Door - pre basket 16/4\n",
+		"category": "restaurant"
             }
         },
         {
@@ -307,7 +328,8 @@
                 ]
             },
             "properties": {
-                "name": "Madison Square Garden - knicks vs raptors 16/4\n"
+                "name": "Madison Square Garden - knicks vs raptors 16/4",
+		"category": "basketball"
             }
         },
         {
@@ -321,7 +343,8 @@
                 ]
             },
             "properties": {
-                "name": "The Metropolitan Museum of Art - 17/4\n"
+                "name": "The Metropolitan Museum of Art - 17/4",
+		"category": "art-gallery"
             }
         },
         {
@@ -336,7 +359,8 @@
             },
             "properties": {
                 "name": "Union Square - 17&22/4",
-                "description": "inkl barnes & nobles"
+                "description": "inkl barnes & nobles",
+		"category": "park"
             }
         },
         {
@@ -350,7 +374,8 @@
                 ]
             },
             "properties": {
-                "name": "Chelsea Market - 17/4\n"
+                "name": "Chelsea Market - 17/4",
+		"category": "shop"
             }
         },
         {
@@ -364,7 +389,8 @@
                 ]
             },
             "properties": {
-                "name": "Hoboken 14th St Pier - 18/4\n"
+                "name": "Hoboken 14th St Pier - 18/4",
+		"category": "ferry"
             }
         },
         {
@@ -378,7 +404,8 @@
                 ]
             },
             "properties": {
-                "name": "American Museum of Natural History - 18/4\n"
+                "name": "American Museum of Natural History - 18/4",
+		"category": "museum"
             }
         },
         {
@@ -392,7 +419,8 @@
                 ]
             },
             "properties": {
-                "name": "Stage Deli - 18/4\n"
+                "name": "Stage Deli - 18/4",
+		"category": "restaurant"
             }
         },
         {
@@ -406,7 +434,8 @@
                 ]
             },
             "properties": {
-                "name": "Times Square - 18/4\n"
+                "name": "Times Square - 18/4",
+		"category": "monument"
             }
         },
         {
@@ -420,7 +449,8 @@
                 ]
             },
             "properties": {
-                "name": "Port Imperial Ferry Terminal - 18/4\n"
+                "name": "Port Imperial Ferry Terminal - 18/4",
+		"category": "ferry"
             }
         },
         {
@@ -434,7 +464,8 @@
                 ]
             },
             "properties": {
-                "name": "Columbus Park - 19/4\n"
+                "name": "Columbus Park - 19/4",
+		"category": "park"
             }
         },
         {
@@ -448,7 +479,8 @@
                 ]
             },
             "properties": {
-                "name": "Joe's Ginger - lunch 19/4\n"
+                "name": "Joe's Ginger - lunch 19/4",
+		"category": "restaurant"
             }
         },
         {
@@ -462,7 +494,8 @@
                 ]
             },
             "properties": {
-                "name": "Doughnut Plant - 19/4\n"
+                "name": "Doughnut Plant - 19/4",
+		"category": "cafe"
             }
         },
         {
@@ -476,7 +509,8 @@
                 ]
             },
             "properties": {
-                "name": "Il Laboratorio del Gelato - 19/4\n"
+                "name": "Il Laboratorio del Gelato - 19/4",
+		"category": "cafe"
             }
         },
         {
@@ -490,7 +524,8 @@
                 ]
             },
             "properties": {
-                "name": "Lunt-Fontanne Theatre - 19/4\n"
+                "name": "Lunt-Fontanne Theatre - 19/4",
+		"category": "theatre"
             }
         },
         {
@@ -504,7 +539,8 @@
                 ]
             },
             "properties": {
-                "name": "New York City Hall - 20/4\n"
+                "name": "New York City Hall - 20/4",
+		"category": "town-hall"
             }
         },
         {
@@ -518,7 +554,8 @@
                 ]
             },
             "properties": {
-                "name": "Brooklyn Bridge - 20/4\n"
+                "name": "Brooklyn Bridge - 20/4",
+		"category": "monument"
             }
         },
         {
@@ -532,7 +569,8 @@
                 ]
             },
             "properties": {
-                "name": "Brooklyn Bridge Park - 20/4\n"
+                "name": "Brooklyn Bridge Park - 20/4",
+		"category": "park"
             }
         },
         {
@@ -546,7 +584,8 @@
                 ]
             },
             "properties": {
-                "name": "Smorgasburg - 20/4\n"
+                "name": "Smorgasburg - 20/4\n",
+		"category": "restaurant"
             }
         },
         {
@@ -560,7 +599,8 @@
                 ]
             },
             "properties": {
-                "name": "Brooklyn Flea Market - 20/4\n"
+                "name": "Brooklyn Flea Market - 20/4",
+		"category": "shop"
             }
         },
         {
@@ -574,7 +614,8 @@
                 ]
             },
             "properties": {
-                "name": "9/11 Memorial - 20/4\n"
+                "name": "9/11 Memorial - 20/4\n",
+		"category": "monument"
             }
         },
         {
@@ -588,7 +629,8 @@
                 ]
             },
             "properties": {
-                "name": "Trinity Church - 20/4\n"
+                "name": "Trinity Church - 20/4",
+		"category": "place-of-worship"
             }
         },
         {
@@ -602,7 +644,8 @@
                 ]
             },
             "properties": {
-                "name": "Battery Park - 20/4\n"
+                "name": "Battery Park - 20/4",
+		"category": "park"
             }
         },
         {
@@ -616,7 +659,8 @@
                 ]
             },
             "properties": {
-                "name": "Maria Mentiras Bar & Grill - 20/4\n"
+                "name": "Maria Mentiras Bar & Grill - 20/4\n",
+		"category": "restaurant"
             }
         },
         {
@@ -630,7 +674,8 @@
                 ]
             },
             "properties": {
-                "name": "Liberty State Park - 21/4\n"
+                "name": "Liberty State Park - 21/4",
+		"category": "ferry"
             }
         },
         {
@@ -644,7 +689,8 @@
                 ]
             },
             "properties": {
-                "name": "Ellis Island - 21/4\n"
+                "name": "Ellis Island - 21/4",
+		"category": "museum"
             }
         },
         {
@@ -658,7 +704,8 @@
                 ]
             },
             "properties": {
-                "name": "Liberty Island - 21/4"
+                "name": "Liberty Island - 21/4",
+		"category": "monument"
             }
         },
         {
@@ -672,7 +719,8 @@
                 ]
             },
             "properties": {
-                "name": "Shake Shack - best burger? - 22/4"
+                "name": "Shake Shack - best burger? - 22/4",
+		"category": "restaurant"
             }
         },
         {
@@ -686,7 +734,8 @@
                 ]
             },
             "properties": {
-                "name": "Short-Term Stow - 22/4\n"
+                "name": "Short-Term Stow - 22/4\n",
+		"category": "suitcase"
             }
         }
     ]
