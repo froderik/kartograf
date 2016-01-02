@@ -1,6 +1,6 @@
 
 var nameOfFeature = function(feature) {
-    var hasAName = feature.properties && feature.properties.name
+    var hasAName = feature.properties && feature.properties.name;
     return hasAName ? feature.properties.name : "";
 };
 
@@ -11,8 +11,13 @@ var coordsOfFeature = function(feature) {
     return [lat, lon];
 };
 
+var categoryOfFeature = function(feature) {
+    var hasACategory = feature.properties && feature.properties.category;
+    return hasACategory ? feature.properties.category : null;
+};
+
 var addOneMarker = function(feature, map) {
-    var icon = L.MakiMarkers.icon({icon: "restaurant", color: "#000", size: "m"});		
+    var icon = L.MakiMarkers.icon({icon: categoryOfFeature(feature), color: "#000", size: "m"});		
     L.marker(coordsOfFeature(feature), {icon: icon}).bindPopup(nameOfFeature(feature)).addTo(map);    
 };
 
