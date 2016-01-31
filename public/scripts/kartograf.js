@@ -35,15 +35,17 @@ var mapOptions = function() {
 
 $(document).ready(
     function() {
-	var map = createMap();
-	var osmLayerUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
-	L.tileLayer( osmLayerUrl, mapOptions() ).addTo( map );
+				var map = createMap();
+				var osmLayerUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
+				L.tileLayer( osmLayerUrl, mapOptions() ).addTo( map );
 
-	var dataSource = $('#map').data( 'source' );
-	$.get(dataSource, function(data) {
-	    for( var i = 0; i < data.features.length; i++ ) {
-		addOneMarker(data.features[i], map);
-	    }
-	});
+				var dataSource = $('#map').data( 'source' );
+				$.get(dataSource, function(data) {
+						jsonData = JSON.parse(data)
+						var features = jsonData[ 'features' ]
+						for( var i = 0; i < features.length; i++ ) {
+								addOneMarker(features[i], map);
+						}
+				});
     }
 );
