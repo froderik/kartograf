@@ -1,2 +1,21 @@
+!!! 5
 
-Hello world!
+%html
+
+  %head
+    %title
+      kartograf
+
+    %link{ rel: "stylesheet", href: "/leaflet.0.7.7/leaflet.css" }
+    
+    %script{ src: "/scripts/jquery-2.1.4.min.js" }
+
+  %body
+
+    #map{ style: "height: 1000px", data: { lat: 40.728, lon: -74, zoom: 13, source: '/newyork.json' } }
+
+    %script{ src: "/leaflet.0.7.7/leaflet.js" }
+    %script{ src: "/leaflet-plugins/Leaflet.MakiMarkers.js" }
+    %script{ src: "/scripts/kartograf.js" }
+
+
