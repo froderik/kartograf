@@ -20,6 +20,30 @@ class Kartograf < Sinatra::Base
   post '/points/*' do |name|
     points_json = points_for name
     points_hash = JSON.parse points_json
+    this_point = { 'type' => 'Feature' }
+    this_point['geometry'] = {
+      'type' => 'Point',
+      'coordinates' => [
+        params['longitude'].to_d,
+        params['latitude'].to_d,
+        0
+      ]
+    }
+    this_point['properties'] = {
+      'name' => params['name'],
+      'category' => params['category'],
+      'date' => params['date']
+    }
+      
+    # TODO : add validation...
+    points_hash['features'] << this_point
+    redis.set key_for( name ), points_hash
+  end
+
+  post '/jsonpoints/*' do |name|
+    puts params.inspect
+    points_json = points_for name
+    points_hash = JSON.parse points_json
     new_point_json = request.body.read.to_s
     new_point_hash = JSON.parse new_point_json
     # TODO : add validation...
